@@ -6,6 +6,7 @@ called *SAS_advanced* algorithm.
 As a homework assigned in the **advanced data structure and algorithm analysis** course for sophomore majoring in CS,
 it is an **teamwork project** for **non-comercial** purposes.  
 ![](./images/overview_1.png)  
+  
 ![](./images/overview_2.png)  
 # 2. PROBLEM DESCRIPTION
 We are expected to pack multiple rectangles into one large texture with an approximation algorithm 
@@ -14,6 +15,7 @@ To be exact, the problem involves packing items into a single **strip** of **fix
 with the objective of **minimizing the total height** of the packing within the strip. The problem is similar 
 to *Bin Packing problem*, the difference is that we can pack rectangles in **two** dimensions.  
 ![](./images/problem_1.png)  
+  
 ![](./images/problem_2.png)  
 There is a category of algorithms which work, called **level algorithm**. The level algorithms are **offline**, which means that we order the entire list of rectangles in advance. Then we partition the strip into **horizontal levels** with the bottom of the strip representing the first level and proceed to pack other rectangles onto these levels with certain ways.  
 ![](./images/problem_3.png)  
