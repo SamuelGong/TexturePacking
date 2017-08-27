@@ -1,6 +1,6 @@
 # 1. OVERVIEW
 *TexturePacking*, as its name reveals, is a program that attempt to solve
-the **texture packing problem** in three different **approximate algorithm**.
+the **texture packing problem** in three different **approximate algorithms**.
 Especially, the last algorithm is a **authentic** one, which is a refined version of *SAS* algorithm
 called *SAS_advanced* algorithm.
 As a homework assigned in the **advanced data structure and algorithm analysis** course for sophomore majoring in CS,
@@ -52,7 +52,7 @@ Since when the number of pieces getting larger and larger, those pieces will be 
   
 In addition, we use our GUI application to do the whole test.  
   
-Since the SAS’s performance is too bad, and it is no need to analysis it here, we will not estimate it. You can refer to out files to see more about it’s performance.  
+Since the SAS’s performance is too bad, and it is no need to analysis it here, we will not estimate it.  
 
 ## Correctness
 We shall first prove that the rectangles are sensibly packed by the three algorithms, 
